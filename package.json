@@ -1,0 +1,28 @@
+{
+  "name": "harmonic",
+  "version": "1.0.0",
+  "description": "Charla sobre composición armónica",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/blackweaver/harmonic-composition.git"
+  },
+  "author": "blackweaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackweaver/harmonic-composition/issues"
+  },
+  "homepage": "https://github.com/blackweaver/harmonic-composition#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.1.0",
+    "gulp-watch-sass": "^1.4.1"
+  }
+}
