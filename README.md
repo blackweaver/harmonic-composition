@@ -1,18 +1,38 @@
 # Composición armónica
 
-## Sección áurea
+## Proporción áurea <img style="max-width: 300px; float: right" src="https://harmonic-composition.netlify.app/aureo.jpg" />
 
-La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que a la vista quede equilibrada en el arte, sino que también se aplica a la naturaleza y al ser humano. Ésta surge cuando un segmento está dividido en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea.
+Definiremos anchos de módulos para nuestro diseño a partir de esta proporción. La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que a la vista quede equilibrada en el arte, sino que también se aplica a la naturaleza y al ser humano. Ésta surge cuando un segmento está dividido en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea. Hay registro de esta proporción den el arte desde los primeros grabados babilónicos.
 
-<img src="https://harmonic-composition.netlify.app/aureo.jpg" />
+<br style="clear: both">
 
-## Tríada de colores según la proporción áurea
+---------------
 
-Una tríada utiliza tres colores distintos que se encuentran a la misma distancia en el círculo cromático. Para usar una tríada de forma exitosa, los colores deben estar equilibrados y se debería usar uno dominante y los otros dos para acentuar.
+## Círculo áureo <img style="max-width: 300px; float: right" src="https://harmonic-composition.netlify.app/triada.jpg" />
 
-<img src="https://harmonic-composition.netlify.app/triada.jpg" />
+Crearémos una paleta de colores utilizando a partir de una tríada basada en la proporción áurea.
+Partir de un tónico y obtendremos los otros dos a partir del número áureo.
 
-En este caso vamos a partir de un color que será nuestro tónico y el equilibrio no será equidistante sino a partir del número aureo.
+<br style="clear: both">
+
+---------------
+
+
+## Sucesión de Fibonacci <img style="max-width: 300px; float: right" src="https://harmonic-composition.netlify.app/fibonacci.jpg" />
+
+Armaremos una progresión de medidas de fuentes a partir de esta sucesión, creada Leonardo de Pisa a partir de la reproducción de conejos en lapsos constantes de un mes. Esta progresión es armónica y coincide con la progresión modular de la sección aurea.
+
+<br style="clear: both">
+
+---------------
+
+## Media geométrica <img style="max-width: 300px; float: right" src="https://harmonic-composition.netlify.app/media.jpg" />
+
+Escogeremos una medida de fuente tónica a partir de la media geométrica de la sucesión de Fibonacci anterior.
+
+<br style="clear: both">
+
+---------------
 
 ### FIGMA
 
@@ -22,4 +42,6 @@ https://www.figma.com/file/Z05xhkA8jMID4kQD3P8bYr/harmonic-composition?node-id=3
 
 https://harmonic-composition.netlify.app/
 
-# 
+### Lucid whiteboard
+
+https://lucid.app/lucidspark/bd5d6edc-6583-41cd-b676-abb942298fa2/edit#
