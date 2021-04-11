@@ -8,5 +8,10 @@ gulp.task("sass:watch", () => watchSass([
   .pipe(sass())
   .pipe(gulp.dest("./public")));
 
+  gulp.task('build', function () {
+    return gulp.src("./sass/**/*.{scss,css}")
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./public/'));
+ });
+
 gulp.task('watch', gulp.series('sass:watch'));
-gulp.task('build', gulp.series('sass:watch'));
