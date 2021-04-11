@@ -134,12 +134,15 @@ body {
   body > section:nth-child(3) {
     height: 20%; }
 
+a {
+  color: white; }
+
+blockquote {
+  position: absolute;
+  bottom: 0; }
+
 .container {
   display: flex;
   margin: 0 auto;
   width: 100%;
   max-width: 1440px; }
-
-blockquote {
-  position: absolute;
-  bottom: 0; }
