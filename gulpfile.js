@@ -9,3 +9,4 @@ gulp.task("sass:watch", () => watchSass([
   .pipe(gulp.dest("./public")));
 
 gulp.task('watch', gulp.series('sass:watch'));
+gulp.task('build', gulp.series('sass:watch'));
