@@ -1,0 +1,123 @@
+// Constantes
+$gold-number: 1.618;
+$tonic: #5BBFC2; // $tonic: #c25b69; // $tonic: #c2a75b;
+$lighten: 0%;
+$darken: 0%;
+$gap: 40;
+// Breakpoint mayor
+$media: 1440;
+// Porcentaje inicial de la caja
+$width: 100;
+// Defino en la lista, primero el valor más pequeño de fuente, 
+// luego el valor con que parto en la sucesión 
+// y por último la posición en la sucesión con el mayor valor
+$font-initial: 13 13 11;
+// La posición 11 de la serie equivale a 55
+$font-size: fibonacci(nth($font-initial, 3));
+// La posición 12 de la serie equivale a 89
+$line-height: fibonacci(nth($font-initial, 3) + 1);
+
+// Variables
+$w: $width;
+$g: $gap;
+$m: $media;
+$f: $font-size;
+$l: $line-height;
+$fib: nth($font-initial, 3);
+$gm-values: nth($font-initial, 1);
+$gm: 0;
+
+// Ángulos
+// A 137° del color principal, se encuentra su siguiente aureo
+$angle-1: 360deg - (360 / $gold-number);
+// Desde 137° hasta 360° se confecciona el sub círculo, para el cual, 274° equivale a su siguiente aureo
+$angle-2: $angle-1 + (360 / $gold-number) / $gold-number; 
+
+// Colores
+$color-1: $tonic;
+// Genero lo siguientes colores a partir de los ángulos
+$color-2: adjust-hue($color-1, $angle-1);
+$color-3: adjust-hue($color-2, $angle-2);
+// Permito oscurecer y aclarar colores, agregando blanco o negro (+ o - luz)
+$color-primary: darken(lighten( $color-1, $lighten ), $darken);
+$color-secondary: darken(lighten( $color-2, $lighten ), $darken);
+$color-tertiary: darken(lighten( $color-3, $lighten ), $darken);
+
+// Mapa con los tamaños generales del sitio que posteriormente iteraré
+$breaks: ( xl: 1, lg: 2, md: 3, sm: 4, xs: 5);
+
+// Mapa de colores que incluye la posibilidad de aclararlos o oscurecerlos
+$colors: ( 
+    primary: darken(lighten( $tonic, $lighten ), $darken),
+    secondary: darken(lighten( $color-2, $lighten ), $darken),
+    tertiary: darken(lighten( $color-3, $lighten ), $darken),
+);
+
+// Calculo y devuelvo una posición de la lista suessión de Fibonacci: 0 1 1 2 3 5 8 13 21 34 55 89
+@function fibonacci($pos) {
+    $fib: 0 1;
+    @for $i from 1 through nth($font-initial, 3) {
+        $x: nth($fib, length($fib)) + nth($fib, length($fib) - 1);
+        $fib: append($fib, $x); 
+    }
+    @return nth($fib, $pos);
+}
+
+// Creo clases para asignar backgrounds con cada color
+@each $name, $value in $colors {
+    .bg-#{$name} {
+        background-color: $value;
+    }
+    .color-#{$name} {
+        color: $value;
+    }
+}
+
+// Creo las clases para asignar, anchos, calles, media queries y tamaño de fuentes, 
+@each $name, $value in $breaks {
+    .width-#{$name} {
+      width: $w * 1%;
+    }
+    .width-#{$name}-rem {
+        position: relative;
+        width: 100% - $w;
+    }
+    .gap-#{$name} {
+        margin: $g * 1px;
+    }
+    .media-#{$name} {
+        flex-wrap: wrap;
+        content: $m;
+        > * {
+            @media (max-width: $m * 1px) {
+                @if ($name == "xs") {
+                    width: 100% !important;
+                } @else if ($name == "sm") {
+                    width: 100% !important;
+                } @else if ($name == "md") {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+    .font-size-#{$name} {
+        font-size: $f + 0px;
+        line-height: $l;
+    }
+    @if ($value == 5) {
+        .gm {
+            font-size: $gm * 1px;
+        }
+    }
+    
+    $w: $w / $gold-number;
+    $g: $g / $gold-number;
+    $m: $m / $gold-number;
+    $num: round(fibonacci($fib) * (nth($font-initial, 1) / nth($font-initial, 2)));
+    $f: $num;
+    $gm-values: $gm-values * $f;
+    $gm: round(pow($gm-values, 1/length($breaks)));
+    @debug $gm;
+    $l: fibonacci($fib + 1) * 1px;
+    $fib: $fib - 1;
+}

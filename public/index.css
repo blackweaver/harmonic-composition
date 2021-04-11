@@ -1,8 +1,145 @@
+.bg-primary {
+  background-color: #5bbfc2; }
+
+.color-primary {
+  color: #5bbfc2; }
+
+.bg-secondary {
+  background-color: #c25ba1; }
+
+.color-secondary {
+  color: #c25ba1; }
+
+.bg-tertiary {
+  background-color: #5b65c2; }
+
+.color-tertiary {
+  color: #5b65c2; }
+
+.width-xl {
+  width: 100%; }
+
+.width-xl-rem {
+  position: relative;
+  width: 0%; }
+
+.gap-xl {
+  margin: 40px; }
+
+.media-xl {
+  flex-wrap: wrap;
+  content: 1440; }
+
+.font-size-xl {
+  font-size: fibonacci(11)0px;
+  line-height: fibonacci(12); }
+
+.width-lg {
+  width: 61.8047%; }
+
+.width-lg-rem {
+  position: relative;
+  width: 38.1953%; }
+
+.gap-lg {
+  margin: 24.72188px; }
+
+.media-lg {
+  flex-wrap: wrap;
+  content: 889.98764; }
+
+.font-size-lg {
+  font-size: 55px;
+  line-height: 89px; }
+
+.width-md {
+  width: 38.19821%; }
+
+.width-md-rem {
+  position: relative;
+  width: 61.80179%; }
+
+.gap-md {
+  margin: 15.27928px; }
+
+.media-md {
+  flex-wrap: wrap;
+  content: 550.05417; }
+  @media (max-width: 550.05417px) {
+    .media-md > * {
+      width: 50% !important; } }
+
+.font-size-md {
+  font-size: 34px;
+  line-height: 55px; }
+
+.width-sm {
+  width: 23.60829%; }
+
+.width-sm-rem {
+  position: relative;
+  width: 76.39171%; }
+
+.gap-sm {
+  margin: 9.44331px; }
+
+.media-sm {
+  flex-wrap: wrap;
+  content: 339.95931; }
+  @media (max-width: 339.95931px) {
+    .media-sm > * {
+      width: 100% !important; } }
+
+.font-size-sm {
+  font-size: 21px;
+  line-height: 34px; }
+
+.width-xs {
+  width: 14.59103%; }
+
+.width-xs-rem {
+  position: relative;
+  width: 85.40897%; }
+
+.gap-xs {
+  margin: 5.83641px; }
+
+.media-xs {
+  flex-wrap: wrap;
+  content: 210.11082; }
+  @media (max-width: 210.11082px) {
+    .media-xs > * {
+      width: 100% !important; } }
+
+.font-size-xs {
+  font-size: 13px;
+  line-height: 21px; }
+
+.gm {
+  font-size: 23px; }
+
+html {
+  height: 100%; }
+
 body {
-  background: red; }
+  margin: 0;
+  background: white;
+  height: 100%;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif; }
+  body > section:nth-child(1) {
+    height: 10%; }
+  body > section:nth-child(2) {
+    height: 70%; }
+  body > section:nth-child(3) {
+    height: 20%; }
 
-h1 {
-  color: gray; }
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px; }
 
-p {
-  background: green; }
+blockquote {
+  position: absolute;
+  bottom: 0; }

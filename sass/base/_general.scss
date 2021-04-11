@@ -1,0 +1,13 @@
+html { height: 100%; }
+body { margin: 0; background: white; height: 100%; color: white; font-family: Helvetica, Arial, sans-serif;
+    > section {
+        &:nth-child(1) { height: 10%; }
+        &:nth-child(2) { height: 70%; }
+        &:nth-child(3) { height: 20%; }
+    }
+}
+.container { display: flex; margin: 0 auto; width: 100%; max-width: $media * 1px; }
+blockquote { 
+    position: absolute;
+    bottom: 0;
+}

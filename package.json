@@ -19,7 +19,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "mathsass": "^0.11.0"
   },
   "dependencies": {
     "gulp-sass": "^4.1.0",
