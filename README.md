@@ -30,8 +30,8 @@ Definiremos anchos de módulos para nuestro diseño a partir de esta proporción
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/triada.jpg" />
 
-Crearémos una paleta de colores utilizando a partir de una tríada basada en la proporción áurea.
-Partir de un tónico y obtendremos los otros dos a partir del número áureo.
+Crearémos una paleta de colores a partir de una tríada basada en la proporción áurea.
+Escogeremos un color tónico y obtendremos los otros dos utilizando el número áureo.
 
 <br style="clear: both">
 
