@@ -15,6 +15,7 @@ Stravinski
 5. Editar estilos en: sass/base
 6. Administración de hojas de estilo en: sass/index.scss
 
+
 ## Proporción áurea 
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/aureo.jpg" />
@@ -49,7 +50,7 @@ Armaremos una progresión de medidas de fuentes a partir de esta sucesión, crea
 
 ## Media geométrica 
 
-<img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/media.jpg" />
+<img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/media.png" />
 
 Escogeremos una medida de fuente tónica a partir de la media geométrica de la sucesión de Fibonacci anterior.
 
