@@ -42,7 +42,7 @@ Escogeremos un color tónico y obtendremos los otros dos utilizando el número �
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/fibonacci.jpg" />
 
-Armaremos una progresión de medidas de fuentes a partir de esta sucesión, creada Leonardo de Pisa a partir de la reproducción de conejos en lapsos constantes de un mes. Esta progresión es armónica y coincide con la progresión modular de la sección aurea.
+Armaremos una progresión de tamaños de fuente a partir de esta sucesión, la que fue creada por Leonardo de Pisa observando la reproducción de conejos en lapsos de un mes. Esta progresión es armónica y coincide con la progresión modular de la sección aurea.
 
 <br style="clear: both">
 
@@ -52,7 +52,7 @@ Armaremos una progresión de medidas de fuentes a partir de esta sucesión, crea
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/media.png" />
 
-Escogeremos una medida de fuente tónica a partir de la media geométrica de la sucesión de Fibonacci anterior.
+Escogeremos una medida de fuente insignia, calculando la media geométrica de la progresión de Fibonacci usada antes.
 
 <br style="clear: both">
 
