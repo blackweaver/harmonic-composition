@@ -1,6 +1,6 @@
 # Composición armónica
 
-El propósito es proporcionar herramientas para la creación, a partir de estructuras armónicas basadas en patrones de la naturaleza, así limitarnos y evitar la progresión arbitraria.
+El propósito es proporcionar herramientas para la creación, a partir de estructuras armónicas basadas en patrones de la naturaleza, así limitarnos y evitamos la progresión arbitraria.
 
 "En tanto me limito, me libero"
 
