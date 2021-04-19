@@ -20,7 +20,7 @@ Stravinski
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/aureo.jpg" />
 
-Definiremos anchos de módulos para nuestro diseño a partir de esta proporción. La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que a la vista quede equilibrada en el arte, sino que también se aplica a la naturaleza y al ser humano. Ésta surge cuando un segmento está dividido en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea. Hay registro de esta proporción en el arte desde los primeros grabados babilónicos.
+Definiremos anchos de módulos para nuestro diseño a partir de esta proporción. La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que genera equilibrio en el arte, sino que se observa en la naturaleza y en la anotomía del ser humano. Ésta surge cuando un segmento se divide en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea. Hay registro de esta proporción desde los primeros grabados babilónicos.
 
 <br style="clear: both">
 
