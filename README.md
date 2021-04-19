@@ -58,6 +58,16 @@ Escogeremos una medida de fuente tónica a partir de la media geométrica de la 
 
 ---------------
 
+## ¿En la música?
+
+<img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/piano.gif" />
+
+13 (tonos + semitonos), 8 (tonos), 5 (semitonos), 3 (grupo entre Do y Mi), 2 (grupo entre Fa y Si).
+
+<br style="clear: both">
+
+---------------
+
 ### FIGMA
 
 https://www.figma.com/file/Z05xhkA8jMID4kQD3P8bYr/harmonic-composition?node-id=382%3A164
