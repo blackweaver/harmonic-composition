@@ -1,6 +1,6 @@
 # Composición armónica
 
-El propósito es proporcionar herramientas para crear a partir de estructuras armónicas basadas en patrones de la naturaleza, así limitarnos y evitar la progresión arbitraria.
+El propósito es proporcionar herramientas para la creación, a partir de estructuras armónicas basadas en patrones de la naturaleza, así limitarnos y evitar la progresión arbitraria.
 
 "En tanto me limito, me libero"
 
@@ -20,7 +20,7 @@ Stravinski
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/aureo.jpg" />
 
-Definiremos anchos de módulos para nuestro diseño a partir de esta proporción. La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que a la vista quede equilibrada en el arte, sino que también se aplica a la naturaleza y al ser humano. Ésta surge cuando un segmento está dividido en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea. Hay registro de esta proporción den el arte desde los primeros grabados babilónicos.
+Definiremos anchos de módulos para nuestro diseño a partir de esta proporción. La sección áurea es la proporción ideal. Es la forma más sencilla de relación de un cuerpo con sus componentes. No solo es una proporción que a la vista quede equilibrada en el arte, sino que también se aplica a la naturaleza y al ser humano. Ésta surge cuando un segmento está dividido en dos partes de forma que en una de ellas es la media proporcional entre el todo y la parte restante. En todas las manifestaciones del arte gráfico y visual la proporción entre los elementos que configuran una imagen es esencial. Con frecuencia se ha utilizado la proporción áurea de forma consciente, pero son muchos los casos en que surge de forma espontánea. Hay registro de esta proporción en el arte desde los primeros grabados babilónicos.
 
 <br style="clear: both">
 
@@ -30,8 +30,8 @@ Definiremos anchos de módulos para nuestro diseño a partir de esta proporción
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/triada.jpg" />
 
-Crearémos una paleta de colores utilizando a partir de una tríada basada en la proporción áurea.
-Partir de un tónico y obtendremos los otros dos a partir del número áureo.
+Crearémos una paleta de colores a partir de una tríada basada en la proporción áurea.
+Escogeremos un color tónico y obtendremos los otros dos utilizando el número áureo.
 
 <br style="clear: both">
 
@@ -42,7 +42,7 @@ Partir de un tónico y obtendremos los otros dos a partir del número áureo.
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/fibonacci.jpg" />
 
-Armaremos una progresión de medidas de fuentes a partir de esta sucesión, creada Leonardo de Pisa a partir de la reproducción de conejos en lapsos constantes de un mes. Esta progresión es armónica y coincide con la progresión modular de la sección aurea.
+Armaremos una progresión de tamaños de fuente a partir de esta sucesión, la que fue creada por Leonardo de Pisa observando la reproducción de conejos en lapsos de un mes. Esta progresión es armónica y coincide con la progresión modular de la sección aurea.
 
 <br style="clear: both">
 
@@ -52,7 +52,7 @@ Armaremos una progresión de medidas de fuentes a partir de esta sucesión, crea
 
 <img style="max-width: 300px;" src="https://harmonic-composition.netlify.app/media.png" />
 
-Escogeremos una medida de fuente tónica a partir de la media geométrica de la sucesión de Fibonacci anterior.
+Escogeremos una medida de fuente insignia, calculando la media geométrica de la progresión de Fibonacci usada antes.
 
 <br style="clear: both">
 
