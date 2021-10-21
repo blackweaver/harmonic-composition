@@ -1,17 +1,16 @@
-const gulp = require("gulp")
-const sass = require("gulp-sass")
-const watchSass = require("gulp-watch-sass")
-  
-gulp.task("sass:watch", () => watchSass([
-  "./sass/**/*.{scss,css}"
-])
-  .pipe(sass())
-  .pipe(gulp.dest("./public")));
+'use strict';
 
-  gulp.task('build', function () {
-    return gulp.src("./sass/**/*.{scss,css}")
+var gulp = require('gulp');
+var sass = require('gulp-sass')(require('sass'));
+
+function buildStyles() {
+  return gulp.src('./sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./public/'));
- });
+};
 
-gulp.task('watch', gulp.series('sass:watch'));
+exports.buildStyles = buildStyles;
+
+exports.watch = function () {
+    gulp.watch('./sass/**/*.scss', gulp.series(['buildStyles']));
+};
